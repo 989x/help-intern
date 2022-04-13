@@ -8,3 +8,11 @@ this is my note 📒
 ```bash
 yarn global add serverless
 ```
+
+## jest 🤹🏻‍♂️
+
+### ts-jest , Getting Started
+- https://www.npmjs.com/package/ts-jest
+```bash
+npm i -D jest typescript	
+```
