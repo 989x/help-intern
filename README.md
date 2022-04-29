@@ -1,6 +1,7 @@
 <p align="center">
-  <img width="100" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/114/man-fairy_1f9da-200d-2642-fe0f.png">
-  <h3 align="center">Helper-internship 🧚‍♂️ </h3>
+  <img width = 10% src="https://prod.cloud.rockstargames.com/crews/sc/5091/54158502/publish/emblem/emblem_512.png">
+  <h5 align="center">HELPER INTERNSHIP</h5>
+<!--   <h3 align="center">Helper-internship 🧚‍♂️ </h3> -->
 </p>
 
 <br />
