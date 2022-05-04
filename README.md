@@ -23,12 +23,15 @@ git reset
 
 <br />
 
-## Serverless 🌎
+## Serverless ⚡️🌎
 ### Serverless: command not found in ubuntu 16.04
 - https://stackoverflow.com/questions/45130789/serverless-command-not-found-in-ubuntu-16-04
 ```bash
 yarn global add serverless
 ```
+
+### How to Create AWS Access Key ID and Secret Access Key
+- https://www.youtube.com/watch?v=yysled3Ir1o
 
 <br />
 
