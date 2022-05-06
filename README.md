@@ -1,12 +1,12 @@
 <p align="center">
   <img width = 10% src="https://prod.cloud.rockstargames.com/crews/sc/5091/54158502/publish/emblem/emblem_512.png">
-  <h5 align="center"> - HELPER INTERNSHIP MAIN BACKEND - </h5>
+  <h5 align="center"> - HELPER INTERNSHIP ( MAIN BACKEND ) - </h5>
 <!--   <h3 align="center">Helper-internship 🧚‍♂️ </h3> -->
 </p>
 
 
 
-## Serverless ⚡️🌎
+## + Serverless ⚡️🌎
 ### 🌟 Serverless: command not found in ubuntu 16.04
 - https://stackoverflow.com/questions/45130789/serverless-command-not-found-in-ubuntu-16-04
 ```bash
@@ -30,8 +30,13 @@ serverless config credentials --provider aws --key <Access Key ID> --secret <Sec
   
 <p align="center"></br><h6 align="center"> o o o </h6></p>
 
-## AWS 🦁
-### 🌟 AWS Credentials
+## + AWS 🦁
+
+### ( 1 ) 🌟 Setting up your AWS credentials
+- https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/setup-credentials.html
+- วิธีเข้า credentials ใน vscode
+
+### ( 2 ) 🌟 AWS Credentials
 - https://www.serverless.com/framework/docs/providers/aws/guide/credentials/
 - 🟡 | ทำตามขั้นตอนไม่หมด
 ```	
@@ -60,7 +65,7 @@ aws_secret_access_key=***************
   <h6 align="center"> - ANOTHER - </h6>
 </p>
 
-## Git 🎃
+## + Git 🎃
 ### 🌟 New brance 
 - https://www.howtogeek.com/714112/how-to-create-a-new-branch-in-github/#:~:text=Create%20a%20New%20Branch%20from%20the%20GitHub%20Website,-You%20can%20create&text=Once%20you've%20accessed%20the,the%20Enter%20or%20Return%20key.
 ```bash
@@ -80,7 +85,7 @@ git reset
 
 <p align="center"></br><h6 align="center"> o o o </h6></p>
 
-## Jest 🤹🏻‍♂️
+## + Jest 🤹🏻‍♂️
 
 ### 🌟 Ts-jest , Getting Started
 - https://www.npmjs.com/package/ts-jest
