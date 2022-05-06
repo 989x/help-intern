@@ -25,6 +25,10 @@ yarn global add serverless
 ```
 serverless config credentials --provider aws --key <Access Key ID> --secret <Secret Access Key>
 ```
+### 🌟 Find Your AWS Account ID and Canonical user ID
+- https://www.youtube.com/watch?v=gU1kjzgb-gA
+- หา aws account ID
+
 
 
   
@@ -64,6 +68,13 @@ aws_secret_access_key=***************
   </br>
   <h6 align="center"> - ANOTHER - </h6>
 </p>
+
+## + GraphQL ፨
+### 🌟 Refetching queries in Apollo Client
+- https://www.apollographql.com/docs/react/data/refetching/#refetch-options
+
+<p align="center"></br><h6 align="center"> o o o </h6></p>
+
 
 ## + Git 🎃
 ### 🌟 New brance 
