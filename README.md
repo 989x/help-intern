@@ -6,7 +6,9 @@
 
 
 
+
 ## + Serverless ⚡️🌎
+
 ### 🌟 Serverless: command not found in ubuntu 16.04
 - https://stackoverflow.com/questions/45130789/serverless-command-not-found-in-ubuntu-16-04
 ```bash
@@ -29,10 +31,10 @@ serverless config credentials --provider aws --key <Access Key ID> --secret <Sec
 - https://www.youtube.com/watch?v=gU1kjzgb-gA
 - หา aws account ID
 
-
-
-  
 <p align="center"></br><h6 align="center"> o o o </h6></p>
+
+
+
 
 ## + AWS 🦁
 
@@ -52,7 +54,6 @@ aws_secret_access_key=***************
 aws_access_key_id=***************
 aws_secret_access_key=***************
 ```
-
 ### 🌟 IAM Permissions Boundary - Full Configuration
 - https://www.youtube.com/watch?v=gLQwzsqpSFA
 - Setting aws ตามคลิป
@@ -60,6 +61,10 @@ aws_secret_access_key=***************
 ### 🌟 User is not authorized to perform: cloudformation:CreateStack
 - https://stackoverflow.com/questions/34237218/user-is-not-authorized-to-perform-cloudformationcreatestack
 - config Bug : aws เบื้องต้น 
+
+### 🌟 Installing or updating the latest version of the AWS CLI
+- https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+- macOS / Install or update the AWS CLI / Command line installer - All users
 
 
 
@@ -74,6 +79,8 @@ aws_secret_access_key=***************
 - https://www.apollographql.com/docs/react/data/refetching/#refetch-options
 
 <p align="center"></br><h6 align="center"> o o o </h6></p>
+
+
 
 
 ## + Git 🎃
@@ -92,9 +99,10 @@ git push origin <your-new-branch-name>
 ```bash
 git reset
 ```
-
-
 <p align="center"></br><h6 align="center"> o o o </h6></p>
+
+
+
 
 ## + Jest 🤹🏻‍♂️
 
