@@ -1,3 +1,11 @@
+<p align="center">
+  <img width = 10% src="https://pbs.twimg.com/media/EEne7IEW4AE7Rbh.png">
+  <h5 align="center"> - HELPER INTERNSHIP ( NoSQL ) - </h5>
+<!--   <h3 align="center">Helper-internship 🧚‍♂️ </h3> -->
+</p>
+
+</br>
+
 ### How to make search using "contains" with DynamoDB
 - https://stackoverflow.com/questions/43793888/how-to-make-search-using-contains-with-dynamodb
 ```Javascript
