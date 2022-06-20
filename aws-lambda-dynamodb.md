@@ -1,5 +1,5 @@
 ### How to make search using "contains" with DynamoDB
-- https://stackoverflow.com/questions/43793888/how-to-make-search-using-contains-with-dynamodb?fbclid=IwAR2u5GyTz_SvFnEPue45RAgDbsNSOkhfncjwtD_wDbueRPT3jn3GlgFxywY
+- https://stackoverflow.com/questions/43793888/how-to-make-search-using-contains-with-dynamodb
 ```Javascript
 const AWS = require('aws-sdk');
 const documentClient = new AWS.DynamoDB.DocumentClient();
@@ -21,7 +21,7 @@ documentClient.scan(params, function(err, data) {
 });
 ```
 
-<p align="center"></br><h6 align="center"> o </h6></p>
+</br>
 
 ### scan\query between two timestamps
 - https://stackoverflow.com/questions/35828968/scan-query-between-two-timestamps
@@ -47,4 +47,12 @@ req.dynamo.query(params, function (err, data) {
     cb(err, data);
     });
 }
+```
+
+</br>
+
+### How to scan between date range using Lambda and DynamoDB?
+- https://stackoverflow.com/questions/40390386/how-to-scan-between-date-range-using-lambda-and-dynamodb
+```Javascript
+FilterExpression: "start_date BETWEEN :date1 and :date2"
 ```
