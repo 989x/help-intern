@@ -56,3 +56,27 @@ req.dynamo.query(params, function (err, data) {
 ```Javascript
 FilterExpression: "start_date BETWEEN :date1 and :date2"
 ```
+
+</br>
+
+### DynamoDB Filter Expressions (Ultimate Guide w/ Examples) 
+and mrore...
+- https://dynobase.dev/dynamodb-filterexpression/
+```Javascript
+🎃 EXAM - Multiple Filtering with a Filter Expression 
+
+var params = {
+    TableName: 'projects-manager',
+    FilterExpression : "contains(#name, :name) AND #projectId = :projectId ",
+    ExpressionAttributeNames: {"#name": "name", "#projectId":"projectId" },
+    ExpressionAttributeValues: {
+        ':projectId': 'ffed08f6-dc4e-4fba-a56f-ad6c80af8d01',
+        ':name':"Project"
+    }
+};
+
+dynamodb.scan(params, function (err, data) {
+    if (err) console.log(err);
+    else console.log(data);
+});
+```
