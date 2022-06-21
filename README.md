@@ -38,6 +38,26 @@ serverless config credentials --provider aws --key <Access Key ID> --secret <Sec
 
 ## + AWS 🦁
 
+### open browser
+<table>
+  <tr>
+    <td>Identity and Access Management (IAM)</td>
+    <td>Amazon S3</td>
+    <td>AWS Lambda</td>
+    <td>CloudWatch</td>
+    <td>DynamoDB</td>
+  </tr>
+  <tr>
+    <td><img src="https://www.shareicon.net/download/2015/08/28/92213_copy.svg" height=90></td>
+    <td><img src="https://extensions.boostmyshop.com/media/catalog/product/cache/17/thumbnail/9df78eab33525d08d6e5fb8d27136e95/l/o/logo-fba-660.png" height=70></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png" height=70></td>
+    <td><img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/monitoring-on-aws/monitor-your-architecture-with-amazon-cloudwatch/images/522c742e37be736db2af0f8a720b1c02_f-05-f-9-a-02-2-a-81-4-fa-3-b-651-412-e-2222-bd-08.png" height=70></td>
+    <td><img src="https://s3.amazonaws.com/usefulangle/posts/332-5f3581d5ea79e.png" height=70></td>
+  </tr>
+</table>
+
+</br>
+
 ### ( 1 ) 🌟 Setting up your AWS credentials
 - https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/setup-credentials.html
 - วิธีเข้า credentials ใน vscode
