@@ -41,7 +41,7 @@ serverless config credentials --provider aws --key <Access Key ID> --secret <Sec
 ### open browser
 <table>
   <tr>
-    <td>Identity and Access Management (IAM)</td>
+    <td>Identity and Access </br> Management (IAM)</td>
     <td>Amazon S3</td>
     <td>AWS Lambda</td>
     <td>CloudWatch</td>
