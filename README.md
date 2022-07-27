@@ -7,7 +7,7 @@
 
 
 
-## + Serverless ⚡️🌎
+## Serverless ⚡️🌎
 
 ### 🌟 Serverless: command not found in ubuntu 16.04
 - https://stackoverflow.com/questions/45130789/serverless-command-not-found-in-ubuntu-16-04
@@ -36,7 +36,7 @@ serverless config credentials --provider aws --key <Access Key ID> --secret <Sec
 
 
 
-## + AWS 🦁
+## AWS 🦁
 
 ### open browser
 <table>
@@ -103,7 +103,7 @@ aws_secret_access_key=***************
 
 
 
-## + Git 🎃
+## Git 🎃
 ### 🌟 New brance 
 - https://www.howtogeek.com/714112/how-to-create-a-new-branch-in-github/#:~:text=Create%20a%20New%20Branch%20from%20the%20GitHub%20Website,-You%20can%20create&text=Once%20you've%20accessed%20the,the%20Enter%20or%20Return%20key.
 ```bash
@@ -124,7 +124,7 @@ git reset
 
 
 
-## + Jest 🤹🏻‍♂️
+## Jest 🤹🏻‍♂️
 
 ### 🌟 Ts-jest , Getting Started
 - https://www.npmjs.com/package/ts-jest
