@@ -21,7 +21,7 @@ documentClient.scan(params, function(err, data) {
 });
 
 🎧 scan\query between two timestamps
-🧭 // https://stackoverflow.com/questions/35828968/scan-query-between-two-timestamps
+🧭 https://stackoverflow.com/questions/35828968/scan-query-between-two-timestamps
 
 function getConversationByDate(req , cb) {
 
