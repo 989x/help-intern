@@ -1,3 +1,65 @@
+Document
+UPDATE-ITEM , NAME-NAME , NAME-NAME
+
+// -------------------- -------------------- -------------------- --------------------
+
+UPDATE-ITEM
+
+https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_UpdateItem.html
+
+{
+    "TableName": "Thread",
+    "Key": {
+        "ForumName": {
+            "S": "Amazon DynamoDB"
+        },
+        "Subject": {
+            "S": "Maximum number of items?"
+        }
+    },
+    "UpdateExpression": "set LastPostedBy = :val1",
+    "ConditionExpression": "LastPostedBy = :val2",
+    "ExpressionAttributeValues": {
+        ":val1": {"S": "alice@example.com"},
+        ":val2": {"S": "fred@example.com"}
+    },
+    "ReturnValues": "ALL_NEW"
+}
+
+https://stackoverflow.com/questions/41915438/node-js-aws-dynamodb-updateitem
+
+'use strict';
+
+const aws = require('aws-sdk');
+
+// It is recommended that we instantiate AWS clients outside the scope of the handler 
+// to take advantage of connection re-use.
+const docClient = new aws.DynamoDB.DocumentClient();
+
+exports.handler = (event, context, callback) => {
+    const params = {
+        TableName: "MYTABLE",
+        Key: {
+            "id": "1"
+        },
+        UpdateExpression: "set variable1 = :x, #MyVariable = :y",
+        ExpressionAttributeNames: {
+            "#MyVariable": "variable23"
+        },
+        ExpressionAttributeValues: {
+            ":x": "hello2",
+            ":y": "dog"
+        }
+    };
+
+    docClient.update(params, function(err, data) {
+        if (err) console.log(err);
+        else console.log(data);
+    });
+};
+
+// -------------------- -------------------- -------------------- --------------------
+
 🎧 How to make search using "contains" with DynamoDB
 🧭 https://stackoverflow.com/questions/43793888/how-to-make-search-using-contains-with-dynamodb
 
