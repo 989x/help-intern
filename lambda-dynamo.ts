@@ -1,30 +1,33 @@
 Document
+
 UPDATE-ITEM , NAME-NAME , NAME-NAME
 
-// -------------------- -------------------- -------------------- --------------------
+// -------------------- -------------------- -------------------- -------------------- --------------------
 
-UPDATE-ITEM
+UPDATE-ITEM 
 
 https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_UpdateItem.html
 
-{
-    "TableName": "Thread",
-    "Key": {
-        "ForumName": {
+const params = {
+    TableName : "Thread",
+    Key : {
+        ForumName : {
             "S": "Amazon DynamoDB"
         },
-        "Subject": {
+        Subject : {
             "S": "Maximum number of items?"
         }
     },
-    "UpdateExpression": "set LastPostedBy = :val1",
-    "ConditionExpression": "LastPostedBy = :val2",
-    "ExpressionAttributeValues": {
+    UpdateExpression: "set LastPostedBy = :val1",
+    ConditionExpression: "LastPostedBy = :val2",
+    ExpressionAttributeValues: {
         ":val1": {"S": "alice@example.com"},
         ":val2": {"S": "fred@example.com"}
     },
     "ReturnValues": "ALL_NEW"
-}
+};
+
+// -------------------- --------------------
 
 https://stackoverflow.com/questions/41915438/node-js-aws-dynamodb-updateitem
 
@@ -58,10 +61,16 @@ exports.handler = (event, context, callback) => {
     });
 };
 
-// -------------------- -------------------- -------------------- --------------------
+// -------------------- --------------------
 
-🎧 How to make search using "contains" with DynamoDB
-🧭 https://stackoverflow.com/questions/43793888/how-to-make-search-using-contains-with-dynamodb
+
+
+// -------------------- -------------------- -------------------- -------------------- --------------------
+
+NAME-NAME
+
+// 🎧 How to make search using "contains" with DynamoDB
+// 🧭 https://stackoverflow.com/questions/43793888/how-to-make-search-using-contains-with-dynamodb
 
 const AWS = require('aws-sdk');
 const documentClient = new AWS.DynamoDB.DocumentClient();
@@ -84,8 +93,8 @@ documentClient.scan(params, function(err, data) {
 
 
 
-🎧 scan\query between two timestamps
-🧭 https://stackoverflow.com/questions/35828968/scan-query-between-two-timestamps
+// 🎧 scan\query between two timestamps
+// 🧭 https://stackoverflow.com/questions/35828968/scan-query-between-two-timestamps
 
 function getConversationByDate(req , cb) {
 
@@ -112,16 +121,16 @@ function getConversationByDate(req , cb) {
 
 
 
-🎧 How to scan between date range using Lambda and DynamoDB?
-🧭 https://stackoverflow.com/questions/40390386/how-to-scan-between-date-range-using-lambda-and-dynamodb
+// 🎧 How to scan between date range using Lambda and DynamoDB?
+// 🧭 https://stackoverflow.com/questions/40390386/how-to-scan-between-date-range-using-lambda-and-dynamodb
 
 FilterExpression: "start_date BETWEEN :date1 and :date2"
 
 
 
 
-🎧 DynamoDB Filter Expressions (Ultimate Guide w/ Examples) and more... 
-🧭 https://dynobase.dev/dynamodb-filterexpression/
+// 🎧 DynamoDB Filter Expressions (Ultimate Guide w/ Examples) and more... 
+// 🧭 https://dynobase.dev/dynamodb-filterexpression/
 
 // 🎃 EXAM - Multiple Filtering with a Filter Expression 
 var params = {
