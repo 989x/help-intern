@@ -1,6 +1,6 @@
 <p align="center">
-  <img width = 9% src="https://prod.cloud.rockstargames.com/crews/sc/5091/54158502/publish/emblem/emblem_512.png">
-  <h5 align="center"> - HELPER INTERNSHIP ( MAIN BACKEND ) - </h5>
+  <img width = 8% src="https://prod.cloud.rockstargames.com/crews/sc/5091/54158502/publish/emblem/emblem_512.png">
+  <h5 align="center"> HELPER INTERNSHIP ( MAIN BACKEND ) </h5>
 </p>
 
 
@@ -50,7 +50,7 @@ open browser
   </tr>
   <tr>
     <td><img src="image/iam.png" height=90></td>
-    <td><img src="image/s3.png" height=70></td>
+    <td><img src="image/s3.png" height=90></td>
     <td><img src="image/lambda.png" height=70></td>
     <td><img src="image/cloundwatch.webp" height=70></td>
   </tr>
@@ -91,7 +91,7 @@ Installing or updating the latest version of the AWS CLI
 
 
 </br>
-<!--  -->
+
 ### ፨ GRAPHQL
 
 Refetching queries in Apollo Client
