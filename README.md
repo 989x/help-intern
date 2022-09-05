@@ -49,10 +49,10 @@ open browser
     <td>CloudWatch</td>
   </tr>
   <tr>
-    <td><img src="image/iam.png" height=90></td>
-    <td><img src="image/s3.png" height=90></td>
-    <td><img src="image/lambda.png" height=70></td>
-    <td><img src="image/cloundwatch.webp" height=70></td>
+    <td><img src="picture/iam.png" height=90></td>
+    <td><img src="picture/s3.png" height=90></td>
+    <td><img src="picture/lambda.png" height=70></td>
+    <td><img src="picture/cloundwatch.webp" height=70></td>
   </tr>
 </table>
 
