@@ -1,26 +1,9 @@
-## Using Matchers
-Jest uses "matchers" to let you test values in different ways. This document will introduce some commonly used matchers. For the full list, see the expect API doc.
+## Jest
 
-### Common Matchers
+### docs
 
-The simplest way to test a value is with exact equality.
+Jest คืออะไร? + เริ่มต้นเขียน Test ด้วย Jest กันดีกว่า
+> https://www.devahoy.com/blog/2019/08/getting-started-with-testing-and-jest#matchers
 
-```ts
-test('two plus two is four', () => {
-  expect(2 + 2).toBe(4);
-});
-```
-
-In this code, expect(2 + 2) returns an "expectation" object. You typically won't do much with these expectation objects except call matchers on them. In this code, .toBe(4) is the matcher. When Jest runs, it tracks all the failing matchers so that it can print out nice error messages for you.
-
-toBe uses Object.is to test exact equality. If you want to check the value of an object, use toEqual instead:
-
-```ts
-test('object assignment', () => {
-  const data = {one: 1};
-  data['two'] = 2;
-  expect(data).toEqual({one: 1, two: 2});
-});
-```
-
-toEqual recursively checks every field of an object or array.
+Using Matchers
+> https://jestjs.io/docs/using-matchers

@@ -1,5 +1,6 @@
 /*
-    Table of content 
+    --- 目录 ---
+
     DOCS_JEST 
         Using Matchers
             Common Matchers
@@ -9,18 +10,20 @@
             Arrays and iterables
             Exceptions
     DOCS_WORK
+        Example
+        Doing
     DOCS_THINK
 */
 
 
 
-
+  
 
 /*  
     DOCS_JEST
 */
 
-//  __Common Matchers
+//  --- Common Matchers ----
 
 // The simplest way to test a value is with exact equality.
 test('two plus two is four', () => {
@@ -43,7 +46,7 @@ test('adding positive numbers is not zero', () => {
     }
 });
 
-//  __Truthiness
+//  --- Truthiness ---
 
 // For example:
 test('null', () => {
@@ -64,7 +67,7 @@ test('zero', () => {
     expect(z).toBeFalsy();
 });
 
-//  __Numbers
+//  --- Numbers ---
 
 // Most ways of comparing numbers have matcher equivalents.
 test('two plus two', () => {
@@ -93,6 +96,29 @@ test('adding floating point numbers', () => {
 /*  
     DOCS_WORK
 */
+
+// __Example
+    describe("main destail", () => {
+        test(
+            "[1 section detail]",
+            () => {
+                let num = 0
+                const _sumthing = generateStrumthing(sum)
+                for (let i = 0; i < _sumthing.length; i++ ) {
+                    totalSum += _sumthing[i].length
+                }
+                expect(totalSum).toBe(10)
+            },
+            timeout,
+        )
+
+        test(
+            "[2 section detail]",
+            ...x
+        )
+    })
+
+// __Doing
 
 // The simplest way to test a value is with exact equality.
 test('two plus two is four', () => {
