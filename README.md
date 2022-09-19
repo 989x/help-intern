@@ -3,8 +3,15 @@
   <h5 align="center"> HELPER INTERNSHIP ( MAIN BACKEND ) </h5>
 </p>
 
+</br>
 
-
+## after internship ending
+### Planing
+i. LOGIC : everthing of code (typescript)
+ii. BACKEND : building backend from zero to hero
+iii. PROJECT : create new project and mix frontend
+iiii. LOGIC-2 : advance logical thinking
+iiiii. ...
 
 </br>
 

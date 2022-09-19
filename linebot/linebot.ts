@@ -78,29 +78,30 @@ const userDetailHandler = async (
           } catch (error) {
             console.log("error ", error);
           }
+
         // Get user data
         case 'User':
           try {
-
             const _memberInfo: AWS.DynamoDB.DocumentClient.QueryInput = {
               TableName: MEMBER_PROGRAM_TABLE_NAME,
               KeyConditionExpression: "shopLoyaltyID = :PK and userID = :SK",
               ExpressionAttributeValues: {
                 ":PK": eventMessageText,
                 ":SK": eventMessageText,
-                // ":userID": eventMessageText,     // msg from line
               },
             };
+            // query
             const results = await dynamodbQuery(db, _memberInfo);
-            console.log('results -> ', [results]);  
+            console.log('results -> ', [results]); 
 
-            msg = [
-              { 
-                type: "text", 
-                text: results.Items
-              },
-            ];
-            return c.replyMessage(replyToken.toString(), msg);
+            // message
+            const txt = Object.entries(results.Items[0])
+            .map(([key, value]) => `${key}: ${value}`)
+            .join("\n");
+            msg = [{ type: "text", text: txt }];
+
+            const r = await c.replyMessage(replyToken.toString(), msg);
+            return r;
           } catch (error) {
             console.log("error ", error);
           }
