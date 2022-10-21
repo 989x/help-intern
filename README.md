@@ -94,6 +94,19 @@ Installing or updating the latest version of the AWS CLI
   >   https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
   >   macOS / Install or update the AWS CLI / Command line installer - All users
 
+</br>
+
+### describe-account
+กรณีลืม email accountID นั้นๆ โดยทำการดึงข้อมูลที่เกี่ยวข้องกับองค์กรเกี่ยวกับบัญชีที่ระบุ การดำเนินการนี้สามารถเรียกได้จากบัญชีการจัดการขององค์กรหรือโดยบัญชีสมาชิกที่เป็นผู้ดูแลระบบที่ได้รับมอบสิทธิ์สำหรับบริการ Amazon Web Services
+
+Docs
+> https://docs.aws.amazon.com/cli/latest/reference/organizations/describe-account.html?fbclid=IwAR0Vxs6nIiX2dOv6FTAOCP8QsaB8PhuML3IxidQ-2qHTPpSpn6G1BMTR_44
+```
+aws organizations describe-account --account-id 555555555555
+```
+Example 
+> https://docs.aws.amazon.com/organizations/latest/APIReference/API_DescribeAccount.html
+
 
 
 
