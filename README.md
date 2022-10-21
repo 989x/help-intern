@@ -7,12 +7,13 @@
 
 ## after internship ending
 ### Planing
-i. LOGIC : everthing of code (typescript)
-ii. BACKEND : building backend from zero to hero
-iii. PROJECT : create new project and mix frontend
-iiii. LOGIC-2 : advance logical thinking
-iiiii. ...
-
+```
+  i. LOGIC-1 _____ everthing of code (typescript)
+  ii. BACKEND _____ building backend from zero to hero
+  iii. PROJECT _____ create new project and mix frontend
+  iiii. LOGIC-2 _____ advance logical thinking
+  iiiii. ...
+```
 </br>
 
 ### ⚡️🌎 SERVERLESS 
